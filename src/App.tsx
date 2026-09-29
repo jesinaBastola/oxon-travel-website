@@ -72,7 +72,7 @@ export default function App() {
             </a>
           </div>
           <a href={COMPANY.mapUrl} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-brand-orange transition">
-            <MapPin size={14} /> Naya Baneshwor-10, Kathmandu
+            <MapPin size={14} /> 10 New Baneshwor Rd, Kathmandu
           </a>
         </div>
       </div>
@@ -220,7 +220,7 @@ export default function App() {
               Your Trusted Travel Partner in Nepal
             </h2>
             <p className="mt-6 text-slate-600 leading-relaxed">
-              <b className="text-navy-900">Oxon Travel and Tours Pvt. Ltd.</b> is a registered travel company based in Naya
+              <b className="text-navy-900">Oxon Travel and Tours Pvt. Ltd.</b> is a registered travel company based in New
               Baneshwor, Kathmandu. We specialise in international & domestic air ticketing, holiday packages, visa services,
               hotel bookings and adventure tours in the Himalayas.
             </p>
@@ -442,7 +442,7 @@ export default function App() {
             <iframe
               title="map"
               className="w-full h-80 pointer-events-none"
-              src="https://maps.google.com/maps?q=Naya%20Baneshwor%20Kathmandu&z=15&output=embed"
+              src="https://maps.google.com/maps?q=OXON%20INTERNATIONAL%20PVT.%20LTD.%2C%2010%20New%20Baneshwor%20Rd%2C%20Kathmandu%2044600&z=16&output=embed"
               loading="lazy"
             />
           </a>
