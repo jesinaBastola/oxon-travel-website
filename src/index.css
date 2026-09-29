@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --color-navy-950: #071433;
+  --color-navy-900: #0b1f4d;
+  --color-navy-800: #12306e;
+  --color-navy-700: #1a4494;
+  --color-brand-blue: #1f6fd1;
+  --color-brand-orange: #f26b1d;
+  --color-brand-red: #d7262e;
+  --color-cream: #fbf6ee;
+  --color-sand: #f4ebdc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: #1e2640;
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fly {
+  0% { transform: translateX(-10vw) translateY(0) rotate(8deg); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateX(110vw) translateY(-60px) rotate(8deg); opacity: 0; }
+}
+.animate-floaty { animation: floaty 5s ease-in-out infinite; }
+.animate-fadeUp { animation: fadeUp 0.9s ease-out both; }
+.animate-fly { animation: fly 14s linear infinite; }
+
+.reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease; }
+.reveal.show { opacity: 1; transform: none; }
+
+.input {
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  background: #fbf6ee;
+  border-radius: 0.9rem;
+  padding: 0.85rem 1rem;
+  outline: none;
+  transition: all 0.2s;
+}
+.input:focus {
+  border-color: #f26b1d;
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(242, 107, 29, 0.15);
+}
+
+.dotted-map {
+  background-image: radial-gradient(rgba(255,255,255,0.18) 1px, transparent 1px);
+  background-size: 14px 14px;
+}
