@@ -2,14 +2,14 @@ export const COMPANY = {
   name: "Oxon Travel and Tours Pvt. Ltd.",
   tagline: "Journeys, Exploration And Adventures",
   phones: ["014500714", "014500715"],
-  mobile: "+9779843755065",
+  mobile: "+9779851094828",
   email: "info@travel.oxon.ltd",
   website: "https://www.travel.oxon.ltd",
   websiteLabel: "www.travel.oxon.ltd",
-  address: "Devkota Sadak, Naya Baneshwor-10, Kathmandu, Nepal",
+  address: "OXON INTERNATIONAL PVT. LTD., GPO Box 1990, 10 New Baneshwor Rd, Kathmandu, Bagmati Province 44600",
   mapUrl:
-    "https://www.google.com/maps/search/?api=1&query=Devkota+Sadak+Naya+Baneshwor+Kathmandu",
-  whatsapp: "https://wa.me/9779843755065",
+    "https://www.google.com/maps/search/?api=1&query=OXON+INTERNATIONAL+PVT.+LTD.+10+New+Baneshwor+Rd+Kathmandu+44600",
+  whatsapp: "https://wa.me/9779851094828",
 };
 
 export const LEADERS = [
@@ -21,7 +21,7 @@ export const LEADERS = [
     initials: "IS",
     message:
       "At Oxon, we believe travel is more than reaching a destination — it is about trust, comfort and memories that last a lifetime. Our commitment is to serve every traveller with honesty, care and world-class professionalism.",
-    phone: "014500714",
+    phone: "+9779851094828",
     email: "info@travel.oxon.ltd",
   },
   {
@@ -32,7 +32,7 @@ export const LEADERS = [
     initials: "AR",
     message:
       "Oxon Travel and Tours was founded with one vision — to take travellers beyond boundaries. We connect Nepal with the world and the world with Nepal, offering reliable service, fair prices and genuine hospitality to every client who trusts us.",
-    phone: "+9779843755065",
+    phone: "+9779851094828",
     email: "info@travel.oxon.ltd",
   },
  
@@ -44,7 +44,7 @@ export const LEADERS = [
     initials: "BA",
     message:
       "From your first enquiry to your safe return, our team handles every detail — tickets, visas, hotels and tours — so you can simply enjoy the journey. Your satisfaction is our success.",
-    phone: "014500714",
+    phone: "+9779851094828",
     email: "info@travel.oxon.ltd",
   },
 ];
